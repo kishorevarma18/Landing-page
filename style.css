@@ -46,6 +46,7 @@ a{
     justify-content: space-between;
     align-items: center;
     padding: 50px 0px;
+    gap:30px
 }
 
 .header-context{
@@ -77,9 +78,42 @@ button{
 
 .header-body .header-image{
     width: 600px;
+    min-width: 400px;
     height: 300px;
     background-color: #969696;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.title{
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    padding: 30px 0px;
+}
+
+.body{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.body .info{
+    max-width: 150px;
+}
+
+.body .info .img{
+    width: 150px;
+    height: 150px;
+    border-style: solid;
+    border-color: #3883F6;
+    border-radius: 10px;
+}
+
+.body .info .text{
+    flex-wrap: wrap;
+    text-align: center;
+    flex: 1;
 }
